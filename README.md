@@ -16,7 +16,7 @@ Add it in your root build.gradle at the end of repositories:
 
 Afterwards add the dependency in your apps build.gradle:
 ```
-compile 'de.mdxdave.retrofit2progress:1.0.0'
+compile 'de.mdxdave:retrofit2progress:1.0.0'
 ```
 
 Create pool:
