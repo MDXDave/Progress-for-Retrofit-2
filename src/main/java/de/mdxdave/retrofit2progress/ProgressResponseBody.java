@@ -1,4 +1,4 @@
-package pl.gumyns.retrofit_progress;
+package de.mdxdave.retrofit2progress;
 
 import java.io.IOException;
 

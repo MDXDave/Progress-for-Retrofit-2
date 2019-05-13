@@ -1,12 +1,12 @@
-package pl.gumyns.retrofit_progress;
+package de.mdxdave.retrofit2progress;
 
 import java.io.IOException;
 
+import de.mdxdave.retrofit2progress.annotation.DownloadProgress;
+import de.mdxdave.retrofit2progress.annotation.UploadProgress;
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
-import pl.gumyns.retrofit_progress.annotation.DownloadProgress;
-import pl.gumyns.retrofit_progress.annotation.UploadProgress;
 
 /**
  * Okhttp3 interceptor.

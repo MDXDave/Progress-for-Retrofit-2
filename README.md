@@ -1,14 +1,29 @@
-# Progress-for-Retrofit-2
+# Up/Download progress listener for Retrofit 2
 Provides simple progress listener implementation for Retrofit 2
 
-Gradle:
+
+## Gradle:
+
+Add it in your root build.gradle at the end of repositories:
 ```
-compile 'pl.gumyns:retrofit_progress:1.0.0'
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
+
+Afterwards add the dependency in your apps build.gradle:
+```
+compile 'de.mdxdave.retrofit2progress:1.0.0'
+```
+
 Create pool:
 ```java
 ProgressListenerPool pool = new ProgressListenerPool();
 ```
+
 Add interceptor and converter:
 ```java
 Retrofit retrofit = new Retrofit.Builder()
@@ -17,6 +32,7 @@ Retrofit retrofit = new Retrofit.Builder()
     ...
     .build();
 ```
+
 Sample Webservice interface:
 ```java
 public interface WS {

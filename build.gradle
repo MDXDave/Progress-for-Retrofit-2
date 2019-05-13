@@ -5,7 +5,7 @@ plugins {
 project.ext.sourceCompatibility = JavaVersion.VERSION_1_7
 project.ext.targetCompatibility = JavaVersion.VERSION_1_7
 
-group 'pl.gumyns'
+group 'de.mdxdave'
 version '1.0.0'
 
 repositories {
@@ -27,13 +27,7 @@ dependencies {
     testCompile 'com.squareup.retrofit2:retrofit:2.4.0'
     testCompile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
     testCompile 'com.squareup.retrofit2:converter-gson:2.4.0'
-    testCompile 'io.reactivex:rxjava:1.1.5'
-}
-
-test {
-    filter {
-        includeTestsMatching "*Test*"
-    }
+    testCompile 'io.reactivex:rxjava:2.2.8'
 }
 
 task wrapper(type: Wrapper) {
