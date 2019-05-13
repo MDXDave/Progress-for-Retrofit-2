@@ -1,6 +1,7 @@
 # Up/Download progress listener for Retrofit 2
 Provides simple progress listener implementation for Retrofit 2
 
+[![](https://jitpack.io/v/MDXDave/retrofit2progress.svg?style=flat-square)](https://jitpack.io/#MDXDave/retrofit2progress)
 
 ## Gradle:
 
